@@ -1,0 +1,132 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vikas Dev World</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+color:white;
+text-align:center;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:20px;
+background:rgba(0,0,0,0.3);
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+header{
+padding:80px 20px;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+background:#00e5ff;
+color:black;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+box-shadow:0 0 20px #00e5ff;
+}
+
+.container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+padding:40px;
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+padding:25px;
+width:250px;
+border-radius:15px;
+transition:0.4s;
+backdrop-filter:blur(10px);
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:rgba(255,255,255,0.2);
+}
+
+footer{
+padding:20px;
+background:rgba(0,0,0,0.3);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Projects</a>
+<a href="#">Games</a>
+<a href="#">Contact</a>
+</nav>
+
+<header>
+<h1>Welcome to Vikas Dev World</h1>
+<p>Future Developer | Learning Coding</p>
+
+<button onclick="showMessage()">Click Me</button>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>HTML</h2>
+<p>Structure of websites.</p>
+</div>
+
+<div class="card">
+<h2>CSS</h2>
+<p>Make your websites beautiful.</p>
+</div>
+
+<div class="card">
+<h2>JavaScript</h2>
+<p>Add interaction and logic.</p>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Vikas Kumar | My Coding Website</p>
+</footer>
+
+<script>
+
+function showMessage(){
+alert("Welcome to my coding website!");
+}
+
+</script>
+
+</body>
+</html>
